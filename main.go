@@ -30,7 +30,7 @@ func initSetting() {
 func main() {
 	initSetting()
 	c := cron.New()
-	err := c.AddFunc("45 0 * * * *", func() {
+	err := c.AddFunc("0 0 * * *", func() {
 		for _, url := range urls {
 			err := checkSSL(url)
 			if err != nil {

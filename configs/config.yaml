@@ -1,3 +1,4 @@
 urls:
-  [ "https://www.baidu.com/" ]
-send_key:
+  [ "https://polixir.site/",
+    "https://revive.cn",]
+send_key: "SCT172123Tv2maC76Xk4kVfpGqS5RhKzNz"
